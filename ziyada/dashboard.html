@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="top-header">        
+        <h2>ZIYADA</h2>       
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#">Menu</a></li>
+              </ul>
+            </div>
+        
+            <div class="nav-register-login">
+              <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+              </ul>
+            </div>
+          </nav>
+    
+    <!-- Main -->
+    <main>
+        <div class="content-row">
+            <div class="main-kiri">
+                <!-- ID : number -->
+                <label for="id" id="id">ID </label>
+                <input type="number" id="id">
+                <br>
+
+                <!-- Nama : text  -->
+                <label for="nama" id="nama">Nama </label>
+                <input type="text" name="nama" id="nama">
+                <br>
+
+                <!-- Jenis Kelamin : radio button -->
+                <label for="jk" id="jk">JK </label>
+                <input type="radio">
+                <label for="laki">Laki-laki</label>
+                <input type="radio" name="gender" id="p" value="P">
+                <label for="perempuan">Perempuan</label>
+                <br>
+
+                <!-- Agama : select box -->
+                <label for="agama"> Agama  </label>
+                <select name="agama" id="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="khatolik">Khatolik</option>
+                    <option value="hindhu">Hindhu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                </select>
+                <br>
+
+                <!-- Alamat : text area -->
+                <label for="alamat" >Alamat </label>
+                <textarea name="alamat" id="alamat" ></textarea>
+                <br>
+
+                <!-- Button Daftar -->
+                <input type="submit" value="Daftar" id="daftar">
+
+                <!-- Button Batal -->
+                <input type="reset" value="Batal" id="batal">
+            </div>
+
+            <div class="main-kanan-1">
+                <label for="hobi" id="hobi">Hobi </label>
+            </div>
+
+            <div class="main-kanan-2">
+                <form >
+                    <input type="checkbox" id="bola">
+                    <label for="bola">Bermain bola</label>
+                    <br>
+                    
+                    <input type="checkbox" id="basket">
+                    <label for="basket">Bermain basket</label>
+                    <br>
+
+                    <input type="checkbox" id="menyanyi">
+                    <label for="menyanyi">Menyanyi</label>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hak Cipta &copy; 2024 Rizky Hanifa Afania.</p>
+    </footer>
+
+</body>
+</html>

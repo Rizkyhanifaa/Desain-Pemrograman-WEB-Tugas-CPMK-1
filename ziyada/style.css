@@ -1,0 +1,174 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+nav{
+    background-color: #0A4DDB;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    display: flex;  
+    font-size: 25px;
+}
+
+.coloumn {
+    float: left;
+    width: 50%;
+}
+
+.coloumn-login{
+    padding-left: 100px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.coloumn-login input[type="text"],
+.coloumn-login input[type="password"] {
+    border-radius: 10px;
+    border: 1px solid #807b7b;
+    border: none;
+    padding: 10px 8px;
+    margin-left: 2px;
+    margin-bottom: 10px; /* Optional: Untuk memberi jarak antar input */
+}   
+
+.coloumn-login button {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 12px;
+    color: black;
+    background-color: white;
+    margin-left: 2px;
+}
+
+/* Transisi button Log in */
+.coloumn-login button:hover {
+    background-color: #0A4DDB;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+/* Mulai Main / Content utama*/
+main {
+    background-color: #dee2e9;
+    width: 100%;
+    display: flex;
+    padding-left: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-kiri{
+    float: left;
+    width: 50%;
+    padding: 60px ;
+    
+}
+
+.main-kiri h4{
+    color: #167275;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main-kiri h1{
+    color: #0A4DDB;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.main-kiri h3{
+    font-size: large;
+}
+
+/* Conten bagian kanan - Sig In */
+.main-kanan .kotak {
+    background-color: white;
+    padding: 20px 20px;
+    margin-top: 50px ;
+    margin-left: 5px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 350px;  
+}
+
+.main-kanan .kotak h2 {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.main-kanan .kotak .text-email, 
+.main-kanan .kotak .text-password, 
+.main-kanan .kotak .text-ulangi-password {
+    padding-left: 10px;
+}
+
+.main-kanan .kotak .email,
+.main-kanan .kotak .password,
+.main-kanan .kotak .ulangi-paswsword{
+    padding-right: 250px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 10px ;
+    border-color: #bfcfe7;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+/* Button Sumbit */
+.main-kanan .kotak button {
+    background-color: #3579B8;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+/* Button Transisi */
+.main-kanan .kotak button:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid ;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.main-kanan .kotak .lupa-password {
+    margin-left: 5px;
+    border: none;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-weight: bold;
+    font-style: normal;
+    background-color: white;
+    color: #167275;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;   
+}
+
+
+
